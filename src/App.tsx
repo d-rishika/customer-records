@@ -15,10 +15,6 @@ function App() {
     const saveddata = loadfromls();
 
     setdatalist(Array.isArray(saveddata)? saveddata : [])
-
-    // if(saveddata.length>0){
-      // setdatalist(saveddata);
-    // }
   },[]);
 
   //save to localstorage
